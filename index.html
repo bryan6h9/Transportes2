@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a transportes UTCJ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+            margin: 20px 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px 0;
+        }
+
+        .box {
+            width: 30%;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .box img {
+            width: 100px;
+            height: auto;
+        }
+
+        .box h2 {
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a transportes UTCJ</h1>
+
+    <div class="container">
+        <div class="box">
+            <img src="emoji dinero.png" alt="Buen Precio">
+            <h2>Buen Precio</h2>
+            <p>Ofrecemos las mejores tarifas para que puedas viajar sin preocupaciones.</p>
+        </div>
+        <div class="box">
+            <img src="emoji feliz.png" alt="Seguridad">
+            <h2>Seguridad</h2>
+            <p>Tu seguridad es nuestra prioridad en cada viaje que realizamos.</p>
+        </div>
+        <div class="box">
+            <img src="emoji manos.png" alt="Rapidez">
+            <h2>Rapidez</h2>
+            <p>Llegamos siempre a tiempo, garantizando rapidez en todos nuestros servicios.</p>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
+        <button onclick="window.location.href='formulario.html'">Registrarse</button>
+    </div>
+</body>
+</html>
